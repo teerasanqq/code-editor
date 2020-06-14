@@ -213,7 +213,7 @@ function enableSingleMode() {
         if (!editorManager.activeFile.controls) return $end.remove();
         const cursor = $cursor.getBoundingClientRect();
 
-        cpos.x = cursor.right - 4;
+        cpos.x = cursor.right - (cursor.width / 2);
         cpos.y = cursor.bottom;
 
         update();

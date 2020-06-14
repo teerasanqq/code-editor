@@ -61,7 +61,7 @@ class Settings {
             editorFont: "default",
             vibrateOnTap: true,
             fullscreen: false,
-            floatingButtonActivation: "long tap"
+            floatingButtonActivation: "click"
         };
         this.settingsFile = DATA_STORAGE + 'settings.json';
         this.loaded = false;
